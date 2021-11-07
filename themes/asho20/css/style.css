@@ -17,6 +17,12 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: pink;
+}
+
+img {width: 150px;}
+
 /* Placement */
 
 body {

@@ -6,6 +6,11 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej!
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag heter Åsa Höglund och jag bor i Hammarbyhöjden i södra Stockholm. När jag inte pluggar webbprogrammering så brukar jag träna en del, främst löpning, och jag gillar att vara ute i naturen. Jag tycker också mycket om att resa och uppleva nya platser, både i och utanför Sverige.
+
+<!-- # Laddar in bilden som vanligt -->
+![Åsa Höglund](%assets_url%/img/me.jpg)
+<!-- # Laddar in bilden via Cimage -->
+<!-- ![Leaf](image/leaf_256x256.png) -->

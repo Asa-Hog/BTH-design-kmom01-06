@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/frog.jpg
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till sidans github repo.
+      url: https://github.com/Asa-Hog/BTH-design-kmom01-06
       icon: github
 ---
