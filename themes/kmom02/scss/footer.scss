@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $footer-background-color;
+    background-color: $footer-background-color;
+    color: $footer-color;
+    padding: 1rem;
+}
+
+.footer a {
+    color: $footer-color;
+}
+
+.footer .social {
+    font-size: 1.5rem;
+}

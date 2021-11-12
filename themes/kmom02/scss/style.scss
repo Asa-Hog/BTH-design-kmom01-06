@@ -1,0 +1,27 @@
+// Normalize
+@import '../../node_modules/normalize.css/normalize';
+
+// Variables
+@import 'variables';
+
+// Icons
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans&family=Roboto:wght@400&display=swap');
+
+// Internal modules
+@import 'main';
+@import 'typography';
+@import 'mobile-nav';
+@import 'images';
+@import 'blockquotes';
+@import 'code';
+@import 'header';
+@import 'footer';
+
+// @import 'test';

@@ -1,0 +1,64 @@
+html {
+    font-size: 100%; // för att inte skriva över användarens typsnittsinställningar i webbläsaren.
+}
+
+body {
+    font-family: sans-serif;
+    line-height: $main-line-height;
+    color: $font-color;
+}
+
+p {
+    font-size: $main-font-size; // (1em) tillsammans med ovanstående ger 16px
+    margin-bottom: $magic-number;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    // font-size: 1.25rem;
+    // width: 64rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: $magic-number;
+    font-weight: bold;
+    color: $title-color;
+}
+
+// footer {
+//     p {
+//         margin-left: 100px;
+//     }
+// }
+
+h1 {
+    font-family: 'Coming Soon', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
