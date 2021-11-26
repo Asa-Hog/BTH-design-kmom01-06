@@ -20,34 +20,34 @@ $h2-color: $color5;
 $nav-a-color: $color1;
 $nav-a-hover-color: $color2;
 
-$a-color: $color4;
-$a-hover-color: $color2;
+$a-color: $color2;
+$a-hover-color: $color4;
 // $a-link-color: $color4;
 // $a-visited-color: $color2;
 
-// $code-background: $color2;
-// $code-border: $color2;
+
 $code-background: #d3d3d3;
 $code-border: #d3d3d3;
 
-$analyzes-box-color: $color1;
-$analyzes-box-text-color: $white;
-$analyzes-box-hover-color: $color4;
-$analysis-h1-text: $color1;
-$analysis-h2-text: $color1;
-$analysis-h3-text: $color1;
+$analysis-box-color: $color1;
+$analysis-box-text-color: $white;
+$analysis-box-hover-color: $color4;
+$analysis-h1-text: $color5;
+$analysis-h2-text: $color5;
+$analysis-h3-text: $color5;
+
+$color-sidebar-h2: $color5;
+$color-sidebar-a: $color2;
+$color-sidebar-a-hover: $black;
 
 $tech-box-color: $color1;
 $tech-box-text-color: $white;
 $tech-box-hover-color: $color4;
-
-$li-color: $color4;
-$li-hover-color: $white;
 
 $footer-background-color: $color4;
 $footer-color: $white;
 $footer-hover-color: $color2;
 
 $main-font-size: 1em;
-$main-line-height: 1.45;
+$main-line-height: 1.5;
 $magic-number: $main-font-size * $main-line-height;

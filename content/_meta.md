@@ -1,7 +1,14 @@
 ---
-Logo: image/frog.jpg
+Logo: image/logo.png
 Tagline: My portfolio.
 Social:
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
+
     - title: Maila Åsa.
       url: mailto:asa_hoglund@hotmail.com
       icon: far fa-envelope

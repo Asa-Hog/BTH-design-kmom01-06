@@ -1,0 +1,91 @@
+.analysis-container {
+    display: grid;
+    gap: 2em 2em;
+}
+
+.analysis-container h1 {
+    grid-column: span 3;
+
+}
+
+.analysis-container .analysis-box {
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 5em;
+    padding: 1em;
+    background-color: $analysis-box-color;
+    color: $analysis-box-text-color;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 0.1em;
+}
+
+.analysis-container .analysis-box:hover {
+    background-color: $analysis-box-hover-color;
+}
+
+.analysis-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.analysis-article .sidebar {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.analysis-article .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.analysis-article .sidebar h2 {
+    color: $color-sidebar-h2;
+}
+
+.analysis-article .sidebar a:hover {
+    color: $color-sidebar-a-hover;
+}
+
+.analysis-article .sidebar a {
+    color: $color-sidebar-a;
+}
+
+
+.analysis-article .article {
+    width: auto;
+}
+
+.analysis-article h1 {
+    color: $analysis-h1-text;
+}
+
+.analysis-article h2 {
+    color: $analysis-h2-text;
+}
+
+.analysis-article h3 {
+    color: $analysis-h3-text;
+}
+
+
+main .analysis-article .article {
+    color: $analysis-h2-text;
+}
+
+.website {
+    width: 300px;
+}
+
+@media (max-width: 767px) {
+    .analysis-container {
+        display: grid;
+    }
+
+    .analysis-container h1 {
+        grid-column: span 1;
+    }
+
+    .analysis-article .sidebar {
+        display: none;
+    }
+}

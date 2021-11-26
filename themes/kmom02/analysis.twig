@@ -3,25 +3,17 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-    <div class="main analyzes-article" role="main">
-
-        <div class = "sidebar">
-            <h2> Andra analyser</h2>
-
-            <ul>
-            {% for page in pages("analyzes") %}
-                <li>
-                    <a href = "{{ page.url }}">
-                    {{ page.title }}
-                    </a>
-                </li>
-            {% endfor %}
-            </ul>
-        </div>
-
-        <div class = "article analysis-article">
+    <div class="main analysis-container" role="main">
             {{ content }}
-        </div>
+
+            {% for page in pages("analysis") %}
+                <a href = "{{ page.url }}">
+                    <div class = "analysis-box">
+                        {{ page.title }}
+                    </div>
+                </a>
+            {% endfor %}
+
     </div>
     
     {% include 'incl/footer.twig' %}

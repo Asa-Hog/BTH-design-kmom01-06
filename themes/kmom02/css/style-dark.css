@@ -6518,13 +6518,13 @@ html {
 
 body {
   font-family: sans-serif;
-  line-height: 1.45;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.815);
 }
 
 p {
   font-size: 1em;
-  margin-bottom: 1.45em;
+  margin-bottom: 1.5em;
 }
 
 * {
@@ -6540,7 +6540,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1.45em;
+  margin-bottom: 1.5em;
   color: #5396c2;
 }
 
@@ -6694,9 +6694,12 @@ pre code {
   justify-content: space-between;
 }
 
-.title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 3em 0 3em 1.5em;
+}
+
+.title {
+  padding: 3em 3em 3em 1em;
 }
 
 .title * {
@@ -6764,16 +6767,16 @@ pre code {
     max-width: 150px;
   }
 }
-.analyzes-container {
+.analysis-container {
   display: grid;
   gap: 2em 2em;
 }
 
-.analyzes-container h1 {
+.analysis-container h1 {
   grid-column: span 3;
 }
 
-.analyzes-container .analyzes-box {
+.analysis-container .analysis-box {
   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
   height: 5em;
   padding: 1em;
@@ -6784,43 +6787,55 @@ pre code {
   border-radius: 0.1em;
 }
 
-.analyzes-container .analyzes-box:hover {
+.analysis-container .analysis-box:hover {
   background-color: #444;
 }
 
-.analyzes-article {
+.analysis-article {
   display: flex;
   flex-direction: row;
 }
 
-.analyzes-article .sidebar {
+.analysis-article .sidebar {
   width: 30%;
-  margin-right: 10px;
+  margin-right: 50px;
 }
 
-.analyzes-article .sidebar ul {
+.analysis-article .sidebar ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.analyzes-article .article {
+.analysis-article .sidebar h2 {
+  color: #667d8c;
+}
+
+.analysis-article .sidebar a:hover {
+  color: #8dadc2;
+}
+
+.analysis-article .sidebar a {
+  color: #667d8c;
+}
+
+.analysis-article .article {
   width: auto;
 }
 
-.analyzes-article .analysis-article h1 {
-  color: rgba(255, 255, 255, 0.815);
+.analysis-article h1 {
+  color: #5396c2;
 }
 
-.analyzes-article .analysis-article h2 {
-  color: rgba(255, 255, 255, 0.815);
+.analysis-article h2 {
+  color: #5396c2;
 }
 
-.analyzes-article .analysis-article h3 {
-  color: rgba(255, 255, 255, 0.815);
+.analysis-article h3 {
+  color: #5396c2;
 }
 
-main .analyzes-article .article {
-  color: rgba(255, 255, 255, 0.815);
+main .analysis-article .article {
+  color: #5396c2;
 }
 
 .website {
@@ -6828,15 +6843,15 @@ main .analyzes-article .article {
 }
 
 @media (max-width: 767px) {
-  .analyzes-container {
+  .analysis-container {
     display: grid;
   }
 
-  .analyzes-container h1 {
+  .analysis-container h1 {
     grid-column: span 1;
   }
 
-  .analyzes-article .sidebar {
+  .analysis-article .sidebar {
     display: none;
   }
 }
