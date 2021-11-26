@@ -15,10 +15,9 @@ p {
 
 * {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     letter-spacing: 0.8px;
     text-align: justify;
-    // font-size: 1.25rem;
-    // width: 64rem;
 }
 
 h1,
@@ -27,9 +26,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
     margin-bottom: $magic-number;
-    font-weight: bold;
+    // font-weight: bold;
     color: $title-color;
 }
 
@@ -42,13 +41,22 @@ h2 {
 }
 
 a {
-    color: $a-color;
     text-decoration: none;
+    color: $a-color;
 }
 
 a:hover {
     color: $a-hover-color;
 }
+
+// a:link {
+//     color: $a-link-color;
+// }
+
+// a:visited {
+//     color: $a-visited-color;
+// }
+
 
 p,
 td,
@@ -59,8 +67,6 @@ dd {
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
-
-
 
 @media (min-width: 64em) {
     html {

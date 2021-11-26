@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Open+Sans&family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@300;400&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -6460,7 +6460,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.815);
+  background-color: #222;
 }
 
 .main {
@@ -6519,7 +6519,7 @@ html {
 body {
   font-family: sans-serif;
   line-height: 1.45;
-  color: #333;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 p {
@@ -6529,6 +6529,7 @@ p {
 
 * {
   font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   letter-spacing: 0.8px;
   text-align: justify;
 }
@@ -6539,23 +6540,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
   margin-bottom: 1.45em;
-  font-weight: bold;
-  color: #8f4d4a;
+  color: #5396c2;
 }
 
 h2 {
-  color: #8f4d4a;
+  color: #5396c2;
 }
 
 a {
-  color: #423736;
   text-decoration: none;
+  color: #8dadc2;
 }
 
 a:hover {
-  color: #c16865;
+  color: #667d8c;
 }
 
 p,
@@ -6590,11 +6589,11 @@ dd {
 }
 
 .nav a {
-  color: #422422;
+  color: #667d8c;
 }
 
 .nav a:hover {
-  color: #c16865;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 .nav-toggle {
@@ -6635,6 +6634,7 @@ dd {
 }
 img {
   width: 100px;
+  filter: brightness(0.8) contrast(1.2);
 }
 
 .me-image {
@@ -6662,9 +6662,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.2em;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #333;
   border-radius: 0.3em;
-  background: #d3d3d3;
+  background: #333;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6672,9 +6672,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #333;
   border-radius: 0.3em;
-  background: #d3d3d3;
+  background: #333;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -6700,18 +6700,17 @@ pre code {
 }
 
 .title * {
-  color: #8f4d4a;
-  font-family: Coming Soon;
+  color: #5396c2;
 }
 
 .title h1 {
-  color: #c16865;
+  color: #667d8c;
 }
 
 .title p {
   font-style: italic;
   font-family: Roboto;
-  color: #423736;
+  color: #667d8c;
 }
 
 @media (max-width: 767px) {
@@ -6778,15 +6777,15 @@ pre code {
   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
   height: 5em;
   padding: 1em;
-  background-color: #422422;
-  color: rgba(255, 255, 255, 0.815);
+  background-color: #333;
+  color: #8dadc2;
   font-size: 2rem;
   text-decoration: none;
   border-radius: 0.1em;
 }
 
 .analyzes-container .analyzes-box:hover {
-  background-color: #423736;
+  background-color: #444;
 }
 
 .analyzes-article {
@@ -6809,19 +6808,19 @@ pre code {
 }
 
 .analyzes-article .analysis-article h1 {
-  color: #422422;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 .analyzes-article .analysis-article h2 {
-  color: #422422;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 .analyzes-article .analysis-article h3 {
-  color: #422422;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 main .analyzes-article .article {
-  color: #422422;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 .website {
@@ -6854,15 +6853,15 @@ main .analyzes-article .article {
   box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
   height: 5em;
   padding: 1em;
-  background-color: #422422;
-  color: rgba(255, 255, 255, 0.815);
+  background-color: #333;
+  color: #8dadc2;
   font-size: 2rem;
   text-decoration: none;
   border-radius: 0.1em;
 }
 
 .technology-container .tech-box:hover {
-  background-color: #423736;
+  background-color: #444;
 }
 
 .technology-article {
@@ -6900,18 +6899,18 @@ main .analyzes-article .article {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #423736;
-  background-color: #423736;
-  color: rgba(255, 255, 255, 0.815);
+  border-top: 1px solid #333;
+  background-color: #333;
+  color: #a4a9ab;
   padding: 1rem;
 }
 
 .footer a {
-  color: rgba(255, 255, 255, 0.815);
+  color: #a4a9ab;
 }
 
 .footer a:hover {
-  color: #c16865;
+  color: rgba(255, 255, 255, 0.815);
 }
 
 .footer .social {

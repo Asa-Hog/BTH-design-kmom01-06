@@ -11,6 +11,11 @@
     color: $footer-color;
 }
 
+.footer a:hover {
+    color: $footer-hover-color;
+}
+
+
 .footer .social {
     font-size: 1.5rem;
 }

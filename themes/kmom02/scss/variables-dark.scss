@@ -1,0 +1,53 @@
+$color1: #5396c2;
+$color2: #667d8c;
+$color3: #325a75;
+$color4: #8dadc2;
+$color5: #1d3342;
+// mono
+
+$white: rgba(255, 255, 255, 0.815);
+$black: #333;
+
+
+$background-color: #222;
+
+$title-h1-color: $color2;
+$title-p-color: $color2;
+
+$title-color: $color1;
+
+$nav-a-color: $color2;
+$nav-a-hover-color: $white;
+$font-color: $white;
+$h2-color: $color1;
+
+$a-color: $color4;
+$a-hover-color: $color2;
+// $a-link-color: $color4;
+// $a-visited-color: $color2;
+
+$footer-background-color: #333;
+$footer-color: #a4a9ab;
+$footer-hover-color: $white;
+
+$code-background: #333;
+$code-border: #333;
+
+$analyzes-box-color: #333;
+$analyzes-box-text-color: $color4;
+$analyzes-box-hover-color: #444;
+$analysis-h1-text: $white;
+$analysis-h2-text: $white;
+$analysis-h3-text: $white;
+
+$tech-box-color: #333;
+$tech-box-text-color: $color4;
+$tech-box-hover-color: #444;
+
+
+$li-color: $color4;
+$li-hover-color: $white;
+
+$main-font-size: 1em;
+$main-line-height: 1.45;
+$magic-number: $main-font-size * $main-line-height;

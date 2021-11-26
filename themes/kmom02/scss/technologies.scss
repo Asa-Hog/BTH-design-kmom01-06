@@ -14,11 +14,19 @@
     height: 5em;
     // border: 1px solid $tech-box-color;
     padding: 1em;
-    background-image: linear-gradient(to bottom right, $tech-box-color, #ccc);
-    color: $font-color;
+    // background-image: linear-gradient(to bottom right, $tech-box-color, #ccc);
+    // background-image: radial-gradient(#222, $tech-box-color);
+    background-color: $tech-box-color;
+    color: $tech-box-text-color;
     // color: $font-alternative-color;
     font-size: 2rem;
     text-decoration: none;
+    border-radius: 0.1em;
+}
+
+.technology-container .tech-box:hover {
+    background-color: $tech-box-hover-color;
+    // color: $tech-box-text-hover-color;
 }
 
 .technology-article {
@@ -28,7 +36,6 @@
 
 .technology-article .sidebar {
     width: 30%;
-    // border: 1px solid black;
     margin-right: 10px;
 }
 
