@@ -25,7 +25,7 @@ Resultat
 ### SATS
 En screenshot av webbplatsen för SATS visas nedan:<br />
 
-![SATS webbplats](%assets_url%/img/sats1.JPG) {.website}
+![SATS webbplats](%assets_url%/img/analysis/colors/sats1.JPG) {.website}
 
 Följande färger hittades med hjälp av ColorZilla på webbplatsen:<br />
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -41,10 +41,10 @@ Den orangea färgen sticker ut från de två blåa nyanserna vilket indikerar at
 ### Sparadiset
 Sparadisets webbplats visas i nedanstående bilder:<br />
 
-![Sparadisets webbplats](%assets_url%/img/spa1.JPG) {.website}
-![Sparadisets webbplats igen](%assets_url%/img/spa2.JPG) {.website}
+![Sparadisets webbplats](%assets_url%/img/analysis/colors/spa1.JPG) {.website}
+![Sparadisets webbplats igen](%assets_url%/img/analysis/colors/spa2.JPG) {.website}
 
-Följande färger hittades på Sparadisets webbplats:<br />
+Följande färger hittades på webbplatsen:<br />
 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr>
@@ -59,8 +59,8 @@ Färgerna som används är dova och jordnära. Det är svårt att avgöra vilket
 ### Hellasgården
 Följande bilder visar screenshots av Hellasgårdens webbplats: <br />
 
-![Hellasgårdens webbplats](%assets_url%/img/hellas1.JPG) {.website}
-![Hellasgårdens webbplats igen](%assets_url%/img/hellas2.JPG) {.website}
+![Hellasgårdens webbplats](%assets_url%/img/analysis/colors/hellas1.JPG) {.website}
+![Hellasgårdens webbplats igen](%assets_url%/img/analysis/colors/hellas2.JPG) {.website}
 
 På webbplatsen hittades följande färger:<br />
 

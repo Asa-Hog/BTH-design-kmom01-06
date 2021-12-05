@@ -1,5 +1,11 @@
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
 
-img {
+.logo {
     width: 100px;
 }
 
@@ -15,10 +21,24 @@ img {
     0 22.3px 17.9px rgba(0, 0, 0, 0.042),
     0 41.8px 33.4px rgba(0, 0, 0, 0.05),
     0 100px 80px rgba(0, 0, 0, 0.07);
+}
 
-    // max-height: 100%;
-    // max-width:100%;
-    // max-width: 500px;
+.pages-load {
+    display: flexbox;
+    width: 100%;
+    justify-content: start;
+}
+
+.page-load {
+    width: 29%;
+    margin-right: 20px;
+    border: 1px solid $analysis-border;
+}
+
+a .measurements {
+    width: 82%;
+    height: 420px;
+    border: 1px solid $analysis-border;
 }
 
 @media (max-width: 767px) {
@@ -29,4 +49,3 @@ img {
         max-width: 150px;
     }
 }
-

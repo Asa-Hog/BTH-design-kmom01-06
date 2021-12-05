@@ -5,8 +5,11 @@
 
 .analysis-container h1 {
     grid-column: span 3;
-
 }
+
+// .analysis-article:first-child {
+//     justify-self: left;
+// }
 
 .analysis-container .analysis-box {
     box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
@@ -53,6 +56,7 @@
 
 .analysis-article .article {
     width: auto;
+    width: 100%;
 }
 
 .analysis-article h1 {
@@ -70,10 +74,34 @@
 
 main .analysis-article .article {
     color: $analysis-h2-text;
+    width: 100%;
+}
+
+.analysis-article .article h1 {
+    text-align: left;
 }
 
 .website {
     width: 300px;
+}
+
+.table-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px double $analysis-border;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.table-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 767px) {

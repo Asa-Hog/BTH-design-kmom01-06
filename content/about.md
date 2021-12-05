@@ -13,4 +13,3 @@ När det gäller stylingen sparar jag den under olika teman i mappen themes, och
 Fonter och ikoner används från Google Fonts och Font Awesome.<br />
    
 För versionshantering använder jag verktyget Git tillsammans med GitHub, dit jag laddar upp mina ändringar.
-
