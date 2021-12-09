@@ -7075,7 +7075,7 @@ main .analysis-article .article {
   background-color: #423736;
   color: rgba(255, 255, 255, 0.815);
   padding: 1rem;
-  background-image: url(../../../assets/img/background/6.png);
+  background-image: url("../../../assets/img/background/6.png");
 }
 
 .footer a {
