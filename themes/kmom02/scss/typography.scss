@@ -33,9 +33,6 @@ h6 {
     color: $title-color;
 }
 
-// h1 {
-//     font-family: 'Coming Soon', sans-serif;
-// }
 
 h2 {
     color: $h2-color;
@@ -60,6 +57,9 @@ dd {
     word-wrap: break-word;
 }
 
+::selection {
+    background: $color2;
+  }
 
 
 @media (min-width: 64em) {

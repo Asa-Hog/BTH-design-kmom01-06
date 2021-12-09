@@ -14,16 +14,20 @@
 
 .title * {
     color: $title-color;
+    font-family: Coming Soon;
 }
 
 .title h1 {
     color: $title-h1-color;
+    // font-size: 48px;
 }
 
 .title p {
     font-style: italic;
     font-family: Roboto;
     color: $title-p-color;
+    color: $portfolio-color;
+    font-size: 16px;
 }
 
 @media (max-width: 767px) {

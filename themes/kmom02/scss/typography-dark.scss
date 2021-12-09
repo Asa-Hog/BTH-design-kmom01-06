@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    // font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: $magic-number;
     // font-weight: bold;
     color: $title-color;
@@ -49,13 +49,6 @@ a:hover {
     color: $a-hover-color;
 }
 
-// a:link {
-//     color: $a-link-color;
-// }
-
-// a:visited {
-//     color: $a-visited-color;
-// }
 
 
 p,
@@ -63,10 +56,14 @@ td,
 th,
 li,
 dd {
-    text-align: justify;
+    // text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
+
+::selection {
+    background: $color3;
+  }
 
 @media (min-width: 64em) {
     html {

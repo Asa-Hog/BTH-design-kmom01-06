@@ -20,7 +20,20 @@
 
 .nav a:hover {
     color: $nav-a-hover-color;
+    display: inline-block;
+    // animation-duration: 1s;
+    // animation-name: move;
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+    // box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    // transform: translateY(-0.25em);
+// .raise:hover,
+// .raise:focus {
 }
+
+// @keyframes move {
+//     0% { transform: translateY(-5px);}
+// }
 
 .nav-toggle {
     display: none;

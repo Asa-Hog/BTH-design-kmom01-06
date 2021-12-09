@@ -14,7 +14,12 @@
 
 .gallery-container picture img {
     box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: move 2s;
 }
+
+@keyframes move {
+    25%{transform:translateY(-10px);}
+ }
 
 .gallery-container img:hover {
     box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.6);

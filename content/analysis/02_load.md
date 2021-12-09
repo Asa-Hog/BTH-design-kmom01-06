@@ -28,15 +28,15 @@ Resultat
 Nedanstående bild visar screenshots av de tre webbplatserna och i tabellen under återfinns mätvärdena från de olika mätningarna.
 
 <picture class = "pages-load">
-    <img class = "page-load" src = "%assets_url%/img/analysis/load/ahlens.JPG">
-    <img class = "page-load" src = "%assets_url%/img/analysis/load/ikea.JPG">
-    <img class = "page-load" src = "%assets_url%/img/analysis/load/clasohlson.JPG">
+    <img class = "page-load" src = "%assets_url%/img/analysis/load/ahlens.JPG" alt = "Åhléns">
+    <img class = "page-load" src = "%assets_url%/img/analysis/load/ikea.JPG" alt = "IKEA">
+    <img class = "page-load" src = "%assets_url%/img/analysis/load/clasohlson.JPG" alt = "Clas Ohlson">
 </picture>
 
 <!-- <a href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSrVdTWF9UdbNQcTR_LFyjO9y0wclPbU7hRhvA4JjbeXWFx-YrC25OmoEBUk1CXdEoHqLBSpEh1OoqV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"> -->
 <!-- <picture class = "measurements"> -->
 <div class = "measurements table-box">
-    <iframe class = "measurements" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrVdTWF9UdbNQcTR_LFyjO9y0wclPbU7hRhvA4JjbeXWFx-YrC25OmoEBUk1CXdEoHqLBSpEh1OoqV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+    <iframe title = "Measurements load time" class = "measurements" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrVdTWF9UdbNQcTR_LFyjO9y0wclPbU7hRhvA4JjbeXWFx-YrC25OmoEBUk1CXdEoHqLBSpEh1OoqV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
     </iframe>
 </div>
 

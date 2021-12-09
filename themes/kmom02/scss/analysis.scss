@@ -19,11 +19,20 @@
     color: $analysis-box-text-color;
     font-size: 2rem;
     text-decoration: none;
-    border-radius: 0.1em;
+    border-radius: 0.2em;
+    background-image: linear-gradient(to top, $analysis-gradient-1, $analysis-gradient-2);
+    text-align: left;
+}
+
+.analysis-box {
+    text-align: left;
 }
 
 .analysis-container .analysis-box:hover {
     background-color: $analysis-box-hover-color;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
 }
 
 .analysis-article {
@@ -41,17 +50,17 @@
     padding-left: 0;
 }
 
-.analysis-article .sidebar h2 {
-    color: $color-sidebar-h2;
-}
+// .analysis-article .sidebar h2 {
+//     color: $color-sidebar-h2;
+// }
 
-.analysis-article .sidebar a:hover {
-    color: $color-sidebar-a-hover;
-}
+// .analysis-article .sidebar a:hover {
+//     color: $color-sidebar-a-hover;
+// }
 
-.analysis-article .sidebar a {
-    color: $color-sidebar-a;
-}
+// .analysis-article .sidebar a {
+//     color: $color-sidebar-a;
+// }
 
 
 .analysis-article .article {
@@ -85,24 +94,14 @@ main .analysis-article .article {
     width: 300px;
 }
 
-.table-box {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 1px double $analysis-border;
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
+// .analysis-article h1 {
+//     color: 1px solid red;
+//     // $analysis-border;
+// }
 
-.table-box iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+// .analysis-article .article div iframe {
+//     border: 1px solid $analysis-border;
+// }
 
 @media (max-width: 767px) {
     .analysis-container {
